@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+body{
+	background-color:#d8d5d5;
+}	
+nav{
+	position:fixed;
+	width:100%;
+	height: 60px;
+	background-color:#212626;
+	color:white;
+	font-weight:bold;
+	z-index:10;
+	margin-bottom:20px;
+}
+nav p{
+	font-family:Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	color:white;
+	font-size:19px;
+	float:left;
+	padding:18px 10px;
+}
+nav ul{
+	float:left;
+	font-size:25px;
+}
+nav ul li{
+	float:left;
+	list-style:none;
+	position:relative;
+	font-size:25px;
+}
+nav ul li a{
+	display:block;
+	font-family:Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	color:white;
+	font-size:25px;
+	padding:18px 30px;
+}
+nav ul li ul{
+	display:none;
+	position:absolute;
+	background-color:#212626;
+	padding:10px;
+	border-radius:0px;
+	
+}
+nav ul li:hover ul{
+	display:block;
+	position:absolute;
+	padding:10px;
+	border-radius:0px;
+	color:#af2222;
+}
+nav ul li ul li{
+	width:180px;
+	border-radius:4px;
+}
+nav ul li ul a{
+	padding: 8px 14px;
+	background-color:#212626;
+}
+nav ul li ul a:hover{
+	padding: 8px 14px;
+}
+#instaikon{
+	width:30px;
+	height:30px;
+}
+#MenuTarolo{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.menu1{
+	position:relative;
+	top:150px;
+	display : inline-block;
+	width:100%;
+	font-family:Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	margin-bottom:20px;
+	font-size: 26px;
+	padding:5px;
+	background-color:#212626;
+	color:white;
+	text-align: center;
+}
+#videok{
+	position:relative;
+	top:130px;
+	text-align:center;
+	margin-top:10px;
+}
+#cimsav{
+	clear:both;/*lebegtetést megszűnteti*/
+	position:relative;
+	top:90px;
+	left:100px;
+	height:30px;
+}
+#vanadinite2{
+	position:relative;
+	height:152px;
+	width:200px;
+	float:left;
+}
+#cim1{
+	float:left;
+	font-family:/*Curlz MT,*/  /*Lucida Handwriting,*/ Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	font-size:100px;
+	font-weight: bold;
+	background-color:#212626;
+	color:white;
+	padding:20px;
+}
+#cim2{
+	float:left;
+	font-family: Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	font-size:100px;
+	font-weight: bold;
+	background-color:#af2222;
+	color:white;
+	padding:20px;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:#af2222;
+}
+h3{
+	font-family:Monotype Corsiva, Times New Roman, Arial;
+	color:#af2222;
+	font-size: 40px;
+	font-style:bold;
+}

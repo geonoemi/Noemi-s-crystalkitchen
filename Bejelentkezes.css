@@ -1,0 +1,153 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background-color:#d8d5d5;
+}
+h1{
+	position:relative;
+	top:90px;
+	text-align:center;
+	font-size:40px;
+}
+h2{
+	position:relative;
+	top:100px;
+}	
+nav{
+	position:fixed;
+	width:100%;
+	height: 60px;
+	background-color:#212626;
+	color:white;
+	font-weight:bold;
+	z-index:10;
+	margin-bottom:20px;
+}
+nav p{
+	font-family:Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	color:white;
+	font-size:19px;
+	float:left;
+	padding:18px 10px;
+}
+nav ul{
+	float:left;
+	font-size:25px;
+}
+nav ul li{
+	float:left;
+	list-style:none;
+	position:relative;
+	font-size:25px;
+}
+nav ul li a{
+	display:block;
+	font-family:Monotype Corsiva, Kunstler Script , Times New Roman, Arial;
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	padding:18px 30px;
+}
+nav ul li ul{
+	display:none;
+	position:absolute;
+	background-color:#212626;
+	padding:10px;
+	border-radius:0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+	display:block;
+	position:absolute;
+	padding:10px;
+	border-radius:0px 0px 4px 4px;
+	color:#af2222;
+}
+nav ul li ul li{
+	width:180px;
+	border-radius:4px;
+}
+nav ul li ul a{
+	padding: 8px 14px;
+	background-color:#212626;
+}
+nav ul li ul a:hover{
+	padding: 8px 14px;
+}
+a:hover{
+	color:#af2222;
+}
+#instaikon{
+	width:30px;
+	height:30px;
+}
+#bejel{
+	padding-left:20px;
+}
+#bejelplatformTarolo{
+	padding-left:20px;
+	padding-right:20px;
+	background-color:#af2222;
+}
+h1{
+	position:relative;
+	top:80px;
+	text-align:center;
+	font-size:40px;
+}
+h2{
+	position:relative;
+	top:120px;
+}	
+#fejlecTarolo {
+	position:relative;
+	margin-top:140px;
+	margin-left:20px;
+	width:100%; 
+}
+.fejlecmenu{
+	float:left;
+	border-bottom:5px solid black;
+	width:40%;
+	padding-left:10px;
+	padding-right:20px;
+	font-size:30
+}
+#ujvasarloTarolo{
+	margin-top:10px;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+.ujvasarlobejel{
+	margin-top:20px;
+	float:left;
+	width:40%;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:24px;
+}
+.fiokletrehoz a{
+	text-decoration:none;
+	color:black;
+}
+.fiokletrehoz a:hover{
+	color:red;
+}
+.fiokletrehoz{
+	float:left;
+	width:40%;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	font-size:24px;
+}
+
+button{
+	margin-left:20px;
+	padding:5px;
+	font-weight:bold;
+}
+
+
